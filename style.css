@@ -78,7 +78,7 @@ ul li{
     font-weight: 700;
     color: #fff;
     display: inline-block;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 .first-buttons{
     text-align: center;
@@ -466,32 +466,59 @@ footer{
 
 @media screen and (max-width: 768px)  {
     nav img{
-        width: 90px !important;
+        width: 80px !important;
         height: 60px !important ;
         margin-left: -25px !important;
+    }
+    nav{
+        width: 96% !important;
+        margin: 0 !important;
+        margin-left: 15px !important;
+    }
+    .lol{
+        width: 100% !important;
+        margin: 0;
+    }
+    .first{
+        margin: auto;
+    }
+    .container-fluid{
+        /* margin-left: 0 !important; */
+        /* margin-right: -50px !important; */
+        margin: 0;
+    }
+    
+    .content{
+        /* width: 90% !important; */
+        
     }
     .first-content p{
         /* width: 100% !important; */
         font-size: 20px !important;
-        margin-left: -30px !important;
-        margin-top: -30px !important;
+        text-align: center;
+      
     }
     .first-content h1{
         font-size: 20px !important;
         line-height: 0px !important;
         margin: 0 !important;
-        width: 150% !important;
-        margin-top: 30px !important;
-        margin-left: -120px !important;
+        margin-top: 50px !important;
+        text-align: center !important;
+        margin: auto !important;
+        margin-bottom: 20px !important;
     }
     .first-content #para{
-        text-align: left;
+        text-align: center;
         font-size: 15px !important;
-        font-weight: 500 !important;
+        font-weight: 600 !important;
         margin-top: 30px !important;
+        margin-bottom: -20px !important;
         width: 90% !important;
         letter-spacing: 0 !important;
-        margin-left: 5px !important;
+        margin-left: 10px !important;
+        width: 100% !important;
+
+        margin: auto !important;
     }
  
     .navbar-nav{
@@ -499,22 +526,120 @@ footer{
         margin-left: -45px !important;
     }
     .first-buttons{
-        margin-left: -23px !important;
+        /* margin-left: -23px !important; */
+        width: 100% !important;
     }
     .two{
-        display: none;
+        display: flex !important;
+        width: 100% !important;
+        height: 250vh !important;
+    }
+    .two-content{
+        margin: 0;
+    }
+    .two-content h1{
+        margin-top: -20px !important;
+        margin-bottom: -20px !important;
+    }
+    .two-content p{
+        margin-bottom: 10px !important;
     }
     .third{
+        display: block;
+        height: 210vh !important;
+        width: 100% !important;
+    }
+    .one{
+        margin-bottom: 20px !important;
+    }
+    .row{
+        display: flex !important;
+        flex-direction: row !important;
+        
+    }
+    .third-comments p{
+        width: 100% !important;
+    }
+    .background-text{
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .background-text p{
+        margin: 0;
+        margin-left: 2px;
+        margin-right: 2px;
+       
+    }
+    .bot{
         display: none;
     }
-    .fourth{
-        display: none;
+    .first-part{
+        margin-left: 10px !important;
+    }
+    .g-col-6{
+        width: 100% !important;
+        
+    }
+    .grid{
+        display: block !important;
     }
     .fifth{
+        /* display: none; */
+    }
+    .fifth img{
         display: none;
+    }
+    .fifth-form p{
+        width: 100% !important;
+        margin: auto;
+    }
+    .fifth-form{
+        height: 90vh !important;
+        width: 100% !important;
+    }
+    .sixth{
+        display: block;
+        margin: 0  !important;
+        width: 53% !important;
+        padding-top: 50px;
+        height: 110vh;
+    }
+    .newsletter{
+        width: 200% !important;
+        margin: 0;
     }
     footer{
-        display: none;
+        /* display: none; */
     }
-}  
+    .gridd{
+        width: 100% !important;
+        padding-bottom: 100px !important;
+        margin: 0% !important;
 
+    }
+    .foot p{
+        width: 85% !important;
+    }
+    #foot P{
+        font-size: 16px !important;
+    }
+    #foot{
+        margin-top: 50px;
+        width: 30% !important;
+        text-align: center;
+    }
+    #foot p i{
+    font-size: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    }
+    #foot i{
+        border: none;
+    }
+    #foot span a i{
+        margin-bottom: -29px !important;
+    }
+    .ftext p{
+        font-size: 5px !important;
+    }
+}
