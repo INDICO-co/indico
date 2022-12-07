@@ -488,10 +488,6 @@ footer{
         margin: 0;
     }
     
-    .content{
-        /* width: 90% !important; */
-        
-    }
     .first-content p{
         /* width: 100% !important; */
         font-size: 20px !important;
@@ -583,9 +579,7 @@ footer{
     .grid{
         display: block !important;
     }
-    .fifth{
-        /* display: none; */
-    }
+ 
     .fifth img{
         display: none;
     }
@@ -608,9 +602,7 @@ footer{
         width: 200% !important;
         margin: 0;
     }
-    footer{
-        /* display: none; */
-    }
+   
     .gridd{
         width: 100% !important;
         padding-bottom: 100px !important;
@@ -629,9 +621,9 @@ footer{
         text-align: center;
     }
     #foot p i{
-    font-size: 20px;
-    display: inline-flex;
-    flex-direction: row;
+        font-size: 20px;
+        display: inline-flex;
+        flex-direction: row;
     }
     #foot i{
         border: none;
